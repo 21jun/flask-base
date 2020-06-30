@@ -9,7 +9,7 @@ services:
       - backend
   nginx:
       container_name: flask-nginx
-      image: "21jun/flask-nginx"
+      image: "21jun/flask-base-nginx"
       ports:
        - "80:80"
       networks:
