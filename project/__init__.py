@@ -10,7 +10,7 @@ def creat_app():
 
     # BluePrints
     from . import models, routes
-    models.init_app(app)
     routes.init_app(app)
+    models.init_app(app)
 
     return app
